@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'redressedregular';
+  src: url('./fonts/redressed-regular-webfont.woff2') format('woff2'),
+  url('./fonts/redressed-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Redressed', cursive;
+}
+* {
+  padding: 0;
+  margin: 0
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
